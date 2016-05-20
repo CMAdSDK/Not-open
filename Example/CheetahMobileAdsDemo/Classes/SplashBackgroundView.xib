@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TPB-hS-SOP">
+                    <rect key="frame" x="0.0" y="480" width="600" height="120"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vbg-lS-ZqB">
+                            <rect key="frame" x="273" y="24" width="53" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="2PE-FY-oAL"/>
+                                <constraint firstAttribute="width" constant="53" id="Hs4-5Z-wd7"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheetah Mobile © 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cg-RK-bvO">
+                            <rect key="frame" x="0.0" y="88" width="600" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="t5t-It-DGF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="8cg-RK-bvO" secondAttribute="bottom" constant="14" id="ENB-12-Jks"/>
+                        <constraint firstItem="vbg-lS-ZqB" firstAttribute="top" secondItem="TPB-hS-SOP" secondAttribute="top" constant="24" id="EeE-bc-41c"/>
+                        <constraint firstAttribute="height" constant="120" id="Vdx-Nl-KNj"/>
+                        <constraint firstItem="8cg-RK-bvO" firstAttribute="leading" secondItem="TPB-hS-SOP" secondAttribute="leading" id="XgJ-Au-fbR"/>
+                        <constraint firstAttribute="trailing" secondItem="8cg-RK-bvO" secondAttribute="trailing" id="bDQ-9T-vBJ"/>
+                        <constraint firstItem="vbg-lS-ZqB" firstAttribute="centerX" secondItem="TPB-hS-SOP" secondAttribute="centerX" id="nJH-gZ-uj3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TPB-hS-SOP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FrH-oR-1Zd"/>
+                <constraint firstAttribute="bottom" secondItem="TPB-hS-SOP" secondAttribute="bottom" id="UDv-JG-JbS"/>
+                <constraint firstAttribute="trailing" secondItem="TPB-hS-SOP" secondAttribute="trailing" id="yqu-BK-L09"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="76" height="76"/>
+    </resources>
+</document>

@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390183621CABFFD80003B6DB /* libCheetahMobileAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 390183611CABFFD80003B6DB /* libCheetahMobileAds.a */; };
+		3955207B1CBCCAB8004A79E6 /* UIColor+AppDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955207A1CBCCAB8004A79E6 /* UIColor+AppDefault.m */; };
+		3955207F1CBCE8E3004A79E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955207E1CBCE8E3004A79E6 /* ViewController.m */; };
+		395520831CBCEB62004A79E6 /* AdTypeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 395520811CBCEB62004A79E6 /* AdTypeCollectionViewCell.m */; };
+		395520841CBCEB62004A79E6 /* AdTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 395520821CBCEB62004A79E6 /* AdTypeCollectionViewCell.xib */; };
+		395520881CBCEBF0004A79E6 /* AdTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 395520871CBCEBF0004A79E6 /* AdTypeModel.m */; };
+		3955208A1CBCEF70004A79E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395520891CBCEF70004A79E6 /* Images.xcassets */; };
+		3955208E1CBD008C004A79E6 /* NativeAdDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955208C1CBD008C004A79E6 /* NativeAdDetailsViewController.m */; };
+		3955208F1CBD008C004A79E6 /* NativeAdDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3955208D1CBD008C004A79E6 /* NativeAdDetailsViewController.xib */; };
+		3974D5F61CA8DC85008A03EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974D5EC1CA8DC85008A03EA /* AppDelegate.m */; };
+		3974D6051CA8DDEB008A03EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974D6041CA8DDEB008A03EA /* Assets.xcassets */; };
+		3974D60B1CA8DDF4008A03EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974D6071CA8DDF4008A03EA /* LaunchScreen.storyboard */; };
+		3974D60C1CA8DDF4008A03EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974D6081CA8DDF4008A03EA /* main.m */; };
+		EE5BBDC51CE9C4EF002ACE5F /* SplashBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5BBDC41CE9C4EF002ACE5F /* SplashBackgroundView.xib */; };
+		EE95FD9E1CC3498300B9801F /* InterstitalAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95FD9C1CC3498300B9801F /* InterstitalAdViewController.m */; };
+		EE95FD9F1CC3498300B9801F /* InterstitalAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE95FD9D1CC3498300B9801F /* InterstitalAdViewController.xib */; };
+		EEA0B7661CEA30D90060F1BF /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEA0B7681CEA30D90060F1BF /* Localized.strings */; };
+		EEA0B77C1CEA34270060F1BF /* CheetahMobileAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEA0B76D1CEA34270060F1BF /* CheetahMobileAds.bundle */; };
+		EEA0B77D1CEA34270060F1BF /* libCheetahMobileAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA0B77B1CEA34270060F1BF /* libCheetahMobileAds.a */; };
+		EEFDD21F1CDE66FB0082B7DC /* BannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFDD21D1CDE66FB0082B7DC /* BannerAdViewController.m */; };
+		EEFDD2201CDE66FB0082B7DC /* BannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFDD21E1CDE66FB0082B7DC /* BannerAdViewController.xib */; };
+		EEFDD2261CDE7E1C0082B7DC /* SplashAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFDD2241CDE7E1C0082B7DC /* SplashAdViewController.m */; };
+		EEFDD2271CDE7E1C0082B7DC /* SplashAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFDD2251CDE7E1C0082B7DC /* SplashAdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		390183611CABFFD80003B6DB /* libCheetahMobileAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCheetahMobileAds.a; path = "../CheetahMobileAds/build/Debug-iphoneos/libCheetahMobileAds.a"; sourceTree = "<group>"; };
+		395520791CBCCAB8004A79E6 /* UIColor+AppDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppDefault.h"; sourceTree = "<group>"; };
+		3955207A1CBCCAB8004A79E6 /* UIColor+AppDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppDefault.m"; sourceTree = "<group>"; };
+		3955207D1CBCE8E3004A79E6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3955207E1CBCE8E3004A79E6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		395520801CBCEB62004A79E6 /* AdTypeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdTypeCollectionViewCell.h; sourceTree = "<group>"; };
+		395520811CBCEB62004A79E6 /* AdTypeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdTypeCollectionViewCell.m; sourceTree = "<group>"; };
+		395520821CBCEB62004A79E6 /* AdTypeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		395520861CBCEBF0004A79E6 /* AdTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdTypeModel.h; sourceTree = "<group>"; };
+		395520871CBCEBF0004A79E6 /* AdTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdTypeModel.m; sourceTree = "<group>"; };
+		395520891CBCEF70004A79E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3955208B1CBD008C004A79E6 /* NativeAdDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdDetailsViewController.h; sourceTree = "<group>"; };
+		3955208C1CBD008C004A79E6 /* NativeAdDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdDetailsViewController.m; sourceTree = "<group>"; };
+		3955208D1CBD008C004A79E6 /* NativeAdDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdDetailsViewController.xib; sourceTree = "<group>"; };
+		3974D5D01CA8DC5E008A03EA /* CheetahMobileAdsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheetahMobileAdsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974D5EB1CA8DC85008A03EA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3974D5EC1CA8DC85008A03EA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3974D6041CA8DDEB008A03EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3974D6061CA8DDF4008A03EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974D6071CA8DDF4008A03EA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3974D6081CA8DDF4008A03EA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE5BBDC41CE9C4EF002ACE5F /* SplashBackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashBackgroundView.xib; sourceTree = "<group>"; };
+		EE95FD9B1CC3498300B9801F /* InterstitalAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitalAdViewController.h; sourceTree = "<group>"; };
+		EE95FD9C1CC3498300B9801F /* InterstitalAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitalAdViewController.m; sourceTree = "<group>"; };
+		EE95FD9D1CC3498300B9801F /* InterstitalAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterstitalAdViewController.xib; sourceTree = "<group>"; };
+		EEA0B7671CEA30D90060F1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
+		EEA0B7691CEA30E10060F1BF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localized.strings"; sourceTree = "<group>"; };
+		EEA0B76A1CEA30E50060F1BF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localized.strings"; sourceTree = "<group>"; };
+		EEA0B76D1CEA34270060F1BF /* CheetahMobileAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CheetahMobileAds.bundle; sourceTree = "<group>"; };
+		EEA0B76E1CEA34270060F1BF /* CheetahMobileAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheetahMobileAds.h; sourceTree = "<group>"; };
+		EEA0B76F1CEA34270060F1BF /* CheetahMobileAdsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheetahMobileAdsDefines.h; sourceTree = "<group>"; };
+		EEA0B7701CEA34270060F1BF /* CMABannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMABannerView.h; sourceTree = "<group>"; };
+		EEA0B7711CEA34270060F1BF /* CMABannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMABannerViewDelegate.h; sourceTree = "<group>"; };
+		EEA0B7721CEA34270060F1BF /* CMAInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAInterstitial.h; sourceTree = "<group>"; };
+		EEA0B7731CEA34270060F1BF /* CMAInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAInterstitialDelegate.h; sourceTree = "<group>"; };
+		EEA0B7741CEA34270060F1BF /* CMANativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAd.h; sourceTree = "<group>"; };
+		EEA0B7751CEA34270060F1BF /* CMANativeAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdDelegate.h; sourceTree = "<group>"; };
+		EEA0B7761CEA34270060F1BF /* CMANativeAdLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdLoader.h; sourceTree = "<group>"; };
+		EEA0B7771CEA34270060F1BF /* CMANativeAdLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdLoaderDelegate.h; sourceTree = "<group>"; };
+		EEA0B7781CEA34270060F1BF /* CMANativeAdTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdTypes.h; sourceTree = "<group>"; };
+		EEA0B7791CEA34270060F1BF /* CMAPosIDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAPosIDConfig.h; sourceTree = "<group>"; };
+		EEA0B77A1CEA34270060F1BF /* CMARequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMARequestError.h; sourceTree = "<group>"; };
+		EEA0B77B1CEA34270060F1BF /* libCheetahMobileAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCheetahMobileAds.a; sourceTree = "<group>"; };
+		EEA0B7801CEA34DD0060F1BF /* CMASplashAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMASplashAd.h; sourceTree = "<group>"; };
+		EEA0B7811CEA34DD0060F1BF /* CMASplashAdDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMASplashAdDelegate.h; sourceTree = "<group>"; };
+		EEA0B7831CEA356A0060F1BF /* CMABannerAdTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMABannerAdTypes.h; sourceTree = "<group>"; };
+		EEFDD21C1CDE66FB0082B7DC /* BannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdViewController.h; sourceTree = "<group>"; };
+		EEFDD21D1CDE66FB0082B7DC /* BannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAdViewController.m; sourceTree = "<group>"; };
+		EEFDD21E1CDE66FB0082B7DC /* BannerAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerAdViewController.xib; sourceTree = "<group>"; };
+		EEFDD2231CDE7E1C0082B7DC /* SplashAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAdViewController.h; sourceTree = "<group>"; };
+		EEFDD2241CDE7E1C0082B7DC /* SplashAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAdViewController.m; sourceTree = "<group>"; };
+		EEFDD2251CDE7E1C0082B7DC /* SplashAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashAdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3974D5CD1CA8DC5E008A03EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390183621CABFFD80003B6DB /* libCheetahMobileAds.a in Frameworks */,
+				EEA0B77D1CEA34270060F1BF /* libCheetahMobileAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390183601CABFFCD0003B6DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				390183611CABFFD80003B6DB /* libCheetahMobileAds.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		395520781CBCCA84004A79E6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				395520791CBCCAB8004A79E6 /* UIColor+AppDefault.h */,
+				3955207A1CBCCAB8004A79E6 /* UIColor+AppDefault.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		3955207C1CBCE6B8004A79E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				395520801CBCEB62004A79E6 /* AdTypeCollectionViewCell.h */,
+				395520811CBCEB62004A79E6 /* AdTypeCollectionViewCell.m */,
+				395520821CBCEB62004A79E6 /* AdTypeCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		395520851CBCEB6F004A79E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				395520861CBCEBF0004A79E6 /* AdTypeModel.h */,
+				395520871CBCEBF0004A79E6 /* AdTypeModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		395520901CBD0B54004A79E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3955208B1CBD008C004A79E6 /* NativeAdDetailsViewController.h */,
+				3955208C1CBD008C004A79E6 /* NativeAdDetailsViewController.m */,
+				3955208D1CBD008C004A79E6 /* NativeAdDetailsViewController.xib */,
+				EE95FD9B1CC3498300B9801F /* InterstitalAdViewController.h */,
+				EE95FD9C1CC3498300B9801F /* InterstitalAdViewController.m */,
+				EE95FD9D1CC3498300B9801F /* InterstitalAdViewController.xib */,
+				EEFDD21C1CDE66FB0082B7DC /* BannerAdViewController.h */,
+				EEFDD21D1CDE66FB0082B7DC /* BannerAdViewController.m */,
+				EEFDD21E1CDE66FB0082B7DC /* BannerAdViewController.xib */,
+				EEFDD2231CDE7E1C0082B7DC /* SplashAdViewController.h */,
+				EEFDD2241CDE7E1C0082B7DC /* SplashAdViewController.m */,
+				EEFDD2251CDE7E1C0082B7DC /* SplashAdViewController.xib */,
+				EE5BBDC41CE9C4EF002ACE5F /* SplashBackgroundView.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3974D5C71CA8DC5E008A03EA = {
+			isa = PBXGroup;
+			children = (
+				EEA0B76B1CEA34270060F1BF /* CheetahMobileAds */,
+				3974D5EA1CA8DC85008A03EA /* Classes */,
+				3974D6031CA8DDA1008A03EA /* Resources */,
+				3974D6021CA8DDA1008A03EA /* Other Sources */,
+				390183601CABFFCD0003B6DB /* Frameworks */,
+				3974D5D11CA8DC5E008A03EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3974D5D11CA8DC5E008A03EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3974D5D01CA8DC5E008A03EA /* CheetahMobileAdsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3974D5EA1CA8DC85008A03EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				395520901CBD0B54004A79E6 /* Controllers */,
+				395520851CBCEB6F004A79E6 /* Models */,
+				3955207C1CBCE6B8004A79E6 /* Cells */,
+				395520781CBCCA84004A79E6 /* Categories */,
+				3974D5EB1CA8DC85008A03EA /* AppDelegate.h */,
+				3974D5EC1CA8DC85008A03EA /* AppDelegate.m */,
+				3955207D1CBCE8E3004A79E6 /* ViewController.h */,
+				3955207E1CBCE8E3004A79E6 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3974D6021CA8DDA1008A03EA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3974D6071CA8DDF4008A03EA /* LaunchScreen.storyboard */,
+				3974D6061CA8DDF4008A03EA /* Info.plist */,
+				3974D6081CA8DDF4008A03EA /* main.m */,
+				EEA0B7681CEA30D90060F1BF /* Localized.strings */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3974D6031CA8DDA1008A03EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3974D6041CA8DDEB008A03EA /* Assets.xcassets */,
+				395520891CBCEF70004A79E6 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EEA0B76B1CEA34270060F1BF /* CheetahMobileAds */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0B76C1CEA34270060F1BF /* include */,
+				EEA0B77B1CEA34270060F1BF /* libCheetahMobileAds.a */,
+			);
+			path = CheetahMobileAds;
+			sourceTree = "<group>";
+		};
+		EEA0B76C1CEA34270060F1BF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0B76D1CEA34270060F1BF /* CheetahMobileAds.bundle */,
+				EEA0B76E1CEA34270060F1BF /* CheetahMobileAds.h */,
+				EEA0B7831CEA356A0060F1BF /* CMABannerAdTypes.h */,
+				EEA0B76F1CEA34270060F1BF /* CheetahMobileAdsDefines.h */,
+				EEA0B7701CEA34270060F1BF /* CMABannerView.h */,
+				EEA0B7711CEA34270060F1BF /* CMABannerViewDelegate.h */,
+				EEA0B7721CEA34270060F1BF /* CMAInterstitial.h */,
+				EEA0B7731CEA34270060F1BF /* CMAInterstitialDelegate.h */,
+				EEA0B7741CEA34270060F1BF /* CMANativeAd.h */,
+				EEA0B7751CEA34270060F1BF /* CMANativeAdDelegate.h */,
+				EEA0B7761CEA34270060F1BF /* CMANativeAdLoader.h */,
+				EEA0B7771CEA34270060F1BF /* CMANativeAdLoaderDelegate.h */,
+				EEA0B7781CEA34270060F1BF /* CMANativeAdTypes.h */,
+				EEA0B7801CEA34DD0060F1BF /* CMASplashAd.h */,
+				EEA0B7811CEA34DD0060F1BF /* CMASplashAdDelegate.h */,
+				EEA0B7791CEA34270060F1BF /* CMAPosIDConfig.h */,
+				EEA0B77A1CEA34270060F1BF /* CMARequestError.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3974D5CF1CA8DC5E008A03EA /* CheetahMobileAdsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974D5E71CA8DC5E008A03EA /* Build configuration list for PBXNativeTarget "CheetahMobileAdsDemo" */;
+			buildPhases = (
+				3974D5CC1CA8DC5E008A03EA /* Sources */,
+				3974D5CD1CA8DC5E008A03EA /* Frameworks */,
+				3974D5CE1CA8DC5E008A03EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheetahMobileAdsDemo;
+			productName = CheetahMobileAdsDemo;
+			productReference = 3974D5D01CA8DC5E008A03EA /* CheetahMobileAdsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3974D5C81CA8DC5E008A03EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cheetahmobile;
+				TargetAttributes = {
+					3974D5CF1CA8DC5E008A03EA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F7YWUJL6EF;
+					};
+				};
+			};
+			buildConfigurationList = 3974D5CB1CA8DC5E008A03EA /* Build configuration list for PBXProject "CheetahMobileAdsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 3974D5C71CA8DC5E008A03EA;
+			productRefGroup = 3974D5D11CA8DC5E008A03EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3974D5CF1CA8DC5E008A03EA /* CheetahMobileAdsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3974D5CE1CA8DC5E008A03EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395520841CBCEB62004A79E6 /* AdTypeCollectionViewCell.xib in Resources */,
+				3955208A1CBCEF70004A79E6 /* Images.xcassets in Resources */,
+				EEA0B7661CEA30D90060F1BF /* Localized.strings in Resources */,
+				EEFDD2271CDE7E1C0082B7DC /* SplashAdViewController.xib in Resources */,
+				EEFDD2201CDE66FB0082B7DC /* BannerAdViewController.xib in Resources */,
+				EEA0B77C1CEA34270060F1BF /* CheetahMobileAds.bundle in Resources */,
+				EE5BBDC51CE9C4EF002ACE5F /* SplashBackgroundView.xib in Resources */,
+				3955208F1CBD008C004A79E6 /* NativeAdDetailsViewController.xib in Resources */,
+				EE95FD9F1CC3498300B9801F /* InterstitalAdViewController.xib in Resources */,
+				3974D60B1CA8DDF4008A03EA /* LaunchScreen.storyboard in Resources */,
+				3974D6051CA8DDEB008A03EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3974D5CC1CA8DC5E008A03EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFDD2261CDE7E1C0082B7DC /* SplashAdViewController.m in Sources */,
+				395520881CBCEBF0004A79E6 /* AdTypeModel.m in Sources */,
+				3955207F1CBCE8E3004A79E6 /* ViewController.m in Sources */,
+				395520831CBCEB62004A79E6 /* AdTypeCollectionViewCell.m in Sources */,
+				3955207B1CBCCAB8004A79E6 /* UIColor+AppDefault.m in Sources */,
+				3974D60C1CA8DDF4008A03EA /* main.m in Sources */,
+				3955208E1CBD008C004A79E6 /* NativeAdDetailsViewController.m in Sources */,
+				3974D5F61CA8DC85008A03EA /* AppDelegate.m in Sources */,
+				EEFDD21F1CDE66FB0082B7DC /* BannerAdViewController.m in Sources */,
+				EE95FD9E1CC3498300B9801F /* InterstitalAdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEA0B7681CEA30D90060F1BF /* Localized.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA0B7671CEA30D90060F1BF /* en */,
+				EEA0B7691CEA30E10060F1BF /* zh-Hans */,
+				EEA0B76A1CEA30E50060F1BF /* zh-Hant */,
+			);
+			name = Localized.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3974D5E51CA8DC5E008A03EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3974D5E61CA8DC5E008A03EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3974D5E81CA8DC5E008A03EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = "";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../CheetahMobileAds\"/**";
+				INFOPLIST_FILE = "$(SRCROOT)/Other Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CheetahMobileAds",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheetahmobile.CheetahMobileAdsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		3974D5E91CA8DC5E008A03EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = "";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../CheetahMobileAds\"/**";
+				INFOPLIST_FILE = "$(SRCROOT)/Other Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CheetahMobileAds",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheetahmobile.CheetahMobileAdsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3974D5CB1CA8DC5E008A03EA /* Build configuration list for PBXProject "CheetahMobileAdsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974D5E51CA8DC5E008A03EA /* Debug */,
+				3974D5E61CA8DC5E008A03EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974D5E71CA8DC5E008A03EA /* Build configuration list for PBXNativeTarget "CheetahMobileAdsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974D5E81CA8DC5E008A03EA /* Debug */,
+				3974D5E91CA8DC5E008A03EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3974D5C81CA8DC5E008A03EA /* Project object */;
+}
