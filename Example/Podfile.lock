@@ -1,0 +1,14 @@
+PODS:
+  - CheetahMobileAds (1.5.0)
+
+DEPENDENCIES:
+  - CheetahMobileAds (from `../CheetahMobileAds.podspec`)
+
+EXTERNAL SOURCES:
+  CheetahMobileAds:
+    :podspec: ../CheetahMobileAds.podspec
+
+SPEC CHECKSUMS:
+  CheetahMobileAds: b40c34a6443173b9231bf97bb9084d4d1e15652f
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,7 @@
+
+target 'CheetahMobileAdsDemo' do
+
+pod 'CheetahMobileAds', :podspec => ’../CheetahMobileAds.podspec’
+
+end
+

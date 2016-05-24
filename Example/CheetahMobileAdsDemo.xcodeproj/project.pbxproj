@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297473D1E24E588FAEF1AF2D /* libPods-CheetahMobileAdsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED7A43835A373649501B2FE /* libPods-CheetahMobileAdsDemo.a */; };
 		390183621CABFFD80003B6DB /* libCheetahMobileAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 390183611CABFFD80003B6DB /* libCheetahMobileAds.a */; };
 		3955207B1CBCCAB8004A79E6 /* UIColor+AppDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955207A1CBCCAB8004A79E6 /* UIColor+AppDefault.m */; };
 		3955207F1CBCE8E3004A79E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955207E1CBCE8E3004A79E6 /* ViewController.m */; };
@@ -24,8 +25,6 @@
 		EE95FD9E1CC3498300B9801F /* InterstitalAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95FD9C1CC3498300B9801F /* InterstitalAdViewController.m */; };
 		EE95FD9F1CC3498300B9801F /* InterstitalAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE95FD9D1CC3498300B9801F /* InterstitalAdViewController.xib */; };
 		EEA0B7661CEA30D90060F1BF /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEA0B7681CEA30D90060F1BF /* Localized.strings */; };
-		EEA0B77C1CEA34270060F1BF /* CheetahMobileAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEA0B76D1CEA34270060F1BF /* CheetahMobileAds.bundle */; };
-		EEA0B77D1CEA34270060F1BF /* libCheetahMobileAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA0B77B1CEA34270060F1BF /* libCheetahMobileAds.a */; };
 		EEFDD21F1CDE66FB0082B7DC /* BannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFDD21D1CDE66FB0082B7DC /* BannerAdViewController.m */; };
 		EEFDD2201CDE66FB0082B7DC /* BannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFDD21E1CDE66FB0082B7DC /* BannerAdViewController.xib */; };
 		EEFDD2261CDE7E1C0082B7DC /* SplashAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFDD2241CDE7E1C0082B7DC /* SplashAdViewController.m */; };
@@ -54,6 +53,9 @@
 		3974D6061CA8DDF4008A03EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3974D6071CA8DDF4008A03EA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3974D6081CA8DDF4008A03EA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56C85F4E10D4DD9A68790B6A /* Pods-CheetahMobileAdsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheetahMobileAdsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheetahMobileAdsDemo/Pods-CheetahMobileAdsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		89691275B25114D74BF13AF3 /* Pods-CheetahMobileAdsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheetahMobileAdsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheetahMobileAdsDemo/Pods-CheetahMobileAdsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8ED7A43835A373649501B2FE /* libPods-CheetahMobileAdsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheetahMobileAdsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5BBDC41CE9C4EF002ACE5F /* SplashBackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashBackgroundView.xib; sourceTree = "<group>"; };
 		EE95FD9B1CC3498300B9801F /* InterstitalAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitalAdViewController.h; sourceTree = "<group>"; };
 		EE95FD9C1CC3498300B9801F /* InterstitalAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitalAdViewController.m; sourceTree = "<group>"; };
@@ -61,24 +63,6 @@
 		EEA0B7671CEA30D90060F1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
 		EEA0B7691CEA30E10060F1BF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localized.strings"; sourceTree = "<group>"; };
 		EEA0B76A1CEA30E50060F1BF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localized.strings"; sourceTree = "<group>"; };
-		EEA0B76D1CEA34270060F1BF /* CheetahMobileAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CheetahMobileAds.bundle; sourceTree = "<group>"; };
-		EEA0B76E1CEA34270060F1BF /* CheetahMobileAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheetahMobileAds.h; sourceTree = "<group>"; };
-		EEA0B76F1CEA34270060F1BF /* CheetahMobileAdsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheetahMobileAdsDefines.h; sourceTree = "<group>"; };
-		EEA0B7701CEA34270060F1BF /* CMABannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMABannerView.h; sourceTree = "<group>"; };
-		EEA0B7711CEA34270060F1BF /* CMABannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMABannerViewDelegate.h; sourceTree = "<group>"; };
-		EEA0B7721CEA34270060F1BF /* CMAInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAInterstitial.h; sourceTree = "<group>"; };
-		EEA0B7731CEA34270060F1BF /* CMAInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAInterstitialDelegate.h; sourceTree = "<group>"; };
-		EEA0B7741CEA34270060F1BF /* CMANativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAd.h; sourceTree = "<group>"; };
-		EEA0B7751CEA34270060F1BF /* CMANativeAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdDelegate.h; sourceTree = "<group>"; };
-		EEA0B7761CEA34270060F1BF /* CMANativeAdLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdLoader.h; sourceTree = "<group>"; };
-		EEA0B7771CEA34270060F1BF /* CMANativeAdLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdLoaderDelegate.h; sourceTree = "<group>"; };
-		EEA0B7781CEA34270060F1BF /* CMANativeAdTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMANativeAdTypes.h; sourceTree = "<group>"; };
-		EEA0B7791CEA34270060F1BF /* CMAPosIDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAPosIDConfig.h; sourceTree = "<group>"; };
-		EEA0B77A1CEA34270060F1BF /* CMARequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMARequestError.h; sourceTree = "<group>"; };
-		EEA0B77B1CEA34270060F1BF /* libCheetahMobileAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCheetahMobileAds.a; sourceTree = "<group>"; };
-		EEA0B7801CEA34DD0060F1BF /* CMASplashAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMASplashAd.h; sourceTree = "<group>"; };
-		EEA0B7811CEA34DD0060F1BF /* CMASplashAdDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMASplashAdDelegate.h; sourceTree = "<group>"; };
-		EEA0B7831CEA356A0060F1BF /* CMABannerAdTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMABannerAdTypes.h; sourceTree = "<group>"; };
 		EEFDD21C1CDE66FB0082B7DC /* BannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdViewController.h; sourceTree = "<group>"; };
 		EEFDD21D1CDE66FB0082B7DC /* BannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAdViewController.m; sourceTree = "<group>"; };
 		EEFDD21E1CDE66FB0082B7DC /* BannerAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerAdViewController.xib; sourceTree = "<group>"; };
@@ -93,7 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				390183621CABFFD80003B6DB /* libCheetahMobileAds.a in Frameworks */,
-				EEA0B77D1CEA34270060F1BF /* libCheetahMobileAds.a in Frameworks */,
+				297473D1E24E588FAEF1AF2D /* libPods-CheetahMobileAdsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				390183611CABFFD80003B6DB /* libCheetahMobileAds.a */,
+				8ED7A43835A373649501B2FE /* libPods-CheetahMobileAdsDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,12 +144,12 @@
 		3974D5C71CA8DC5E008A03EA = {
 			isa = PBXGroup;
 			children = (
-				EEA0B76B1CEA34270060F1BF /* CheetahMobileAds */,
 				3974D5EA1CA8DC85008A03EA /* Classes */,
 				3974D6031CA8DDA1008A03EA /* Resources */,
 				3974D6021CA8DDA1008A03EA /* Other Sources */,
 				390183601CABFFCD0003B6DB /* Frameworks */,
 				3974D5D11CA8DC5E008A03EA /* Products */,
+				44C06F02C586E9A60545A054 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,37 +196,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		EEA0B76B1CEA34270060F1BF /* CheetahMobileAds */ = {
+		44C06F02C586E9A60545A054 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EEA0B76C1CEA34270060F1BF /* include */,
-				EEA0B77B1CEA34270060F1BF /* libCheetahMobileAds.a */,
+				89691275B25114D74BF13AF3 /* Pods-CheetahMobileAdsDemo.debug.xcconfig */,
+				56C85F4E10D4DD9A68790B6A /* Pods-CheetahMobileAdsDemo.release.xcconfig */,
 			);
-			path = CheetahMobileAds;
-			sourceTree = "<group>";
-		};
-		EEA0B76C1CEA34270060F1BF /* include */ = {
-			isa = PBXGroup;
-			children = (
-				EEA0B76D1CEA34270060F1BF /* CheetahMobileAds.bundle */,
-				EEA0B76E1CEA34270060F1BF /* CheetahMobileAds.h */,
-				EEA0B7831CEA356A0060F1BF /* CMABannerAdTypes.h */,
-				EEA0B76F1CEA34270060F1BF /* CheetahMobileAdsDefines.h */,
-				EEA0B7701CEA34270060F1BF /* CMABannerView.h */,
-				EEA0B7711CEA34270060F1BF /* CMABannerViewDelegate.h */,
-				EEA0B7721CEA34270060F1BF /* CMAInterstitial.h */,
-				EEA0B7731CEA34270060F1BF /* CMAInterstitialDelegate.h */,
-				EEA0B7741CEA34270060F1BF /* CMANativeAd.h */,
-				EEA0B7751CEA34270060F1BF /* CMANativeAdDelegate.h */,
-				EEA0B7761CEA34270060F1BF /* CMANativeAdLoader.h */,
-				EEA0B7771CEA34270060F1BF /* CMANativeAdLoaderDelegate.h */,
-				EEA0B7781CEA34270060F1BF /* CMANativeAdTypes.h */,
-				EEA0B7801CEA34DD0060F1BF /* CMASplashAd.h */,
-				EEA0B7811CEA34DD0060F1BF /* CMASplashAdDelegate.h */,
-				EEA0B7791CEA34270060F1BF /* CMAPosIDConfig.h */,
-				EEA0B77A1CEA34270060F1BF /* CMARequestError.h */,
-			);
-			path = include;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3974D5E71CA8DC5E008A03EA /* Build configuration list for PBXNativeTarget "CheetahMobileAdsDemo" */;
 			buildPhases = (
+				574AB9F675314D24031FCAD2 /* Check Pods Manifest.lock */,
 				3974D5CC1CA8DC5E008A03EA /* Sources */,
 				3974D5CD1CA8DC5E008A03EA /* Frameworks */,
 				3974D5CE1CA8DC5E008A03EA /* Resources */,
+				1B0F1C099E8D07E4E495BFB0 /* Embed Pods Frameworks */,
+				0AA05D231B89DCB5D13B6A6A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,7 +239,6 @@
 				TargetAttributes = {
 					3974D5CF1CA8DC5E008A03EA = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = F7YWUJL6EF;
 					};
 				};
 			};
@@ -309,7 +272,6 @@
 				EEA0B7661CEA30D90060F1BF /* Localized.strings in Resources */,
 				EEFDD2271CDE7E1C0082B7DC /* SplashAdViewController.xib in Resources */,
 				EEFDD2201CDE66FB0082B7DC /* BannerAdViewController.xib in Resources */,
-				EEA0B77C1CEA34270060F1BF /* CheetahMobileAds.bundle in Resources */,
 				EE5BBDC51CE9C4EF002ACE5F /* SplashBackgroundView.xib in Resources */,
 				3955208F1CBD008C004A79E6 /* NativeAdDetailsViewController.xib in Resources */,
 				EE95FD9F1CC3498300B9801F /* InterstitalAdViewController.xib in Resources */,
@@ -319,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA05D231B89DCB5D13B6A6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheetahMobileAdsDemo/Pods-CheetahMobileAdsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B0F1C099E8D07E4E495BFB0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheetahMobileAdsDemo/Pods-CheetahMobileAdsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574AB9F675314D24031FCAD2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3974D5CC1CA8DC5E008A03EA /* Sources */ = {
@@ -438,21 +448,19 @@
 		};
 		3974D5E81CA8DC5E008A03EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89691275B25114D74BF13AF3 /* Pods-CheetahMobileAdsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = "";
-				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../CheetahMobileAds\"/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Other Sources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CheetahMobileAds",
-				);
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheetahmobile.CheetahMobileAdsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -462,21 +470,19 @@
 		};
 		3974D5E91CA8DC5E008A03EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C85F4E10D4DD9A68790B6A /* Pods-CheetahMobileAdsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = "";
-				HEADER_SEARCH_PATHS = "\"${SRCROOT}/../CheetahMobileAds\"/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Other Sources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CheetahMobileAds",
-				);
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheetahmobile.CheetahMobileAdsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

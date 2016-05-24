@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.resources    = "CheetahMobileAds/include/CheetahMobileAds.bundle"
   s.public_header_files = "CheetahMobileAds/include/*.h"
 
-  s.preserve_paths = "CheetahMobileAds/CheetahMobileAds.a"
+  s.vendored_libraries = 'CheetahMobileAds/libCheetahMobileAds.a'
+  s.preserve_paths = "CheetahMobileAds/libCheetahMobileAds.a"
 
   s.requires_arc = true
   
