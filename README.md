@@ -44,11 +44,11 @@ If you do not have CheetahMobileAds downloaded already, grab it from  Github（h
 
 Right-click on the CheetahMobileAdsDemo project, and choose“Add Files To CheetahMobileAdsDemo” ,to add files to CheetahMobileAdsDemo.
 <p align="center" >
-  <img src="http://www.cmcm.com/images/front/cms-title.png" alt="Pegasi" title="Pegasi">
+  <img src="http://dl.cm.ksmobile.com/static/res/58/3f/10.png" alt="Pegasi" title="Pegasi">
 </p>
 Add the SDK under the CheetahMobileAds file:
 <p align="center" >
-  <img src="http://www.cmcm.com/images/front/cms-title.png" alt="Pegasi" title="Pegasi">
+  <img src="http://dl.cm.ksmobile.com/static/res/3a/d1/20.png" alt="Pegasi" title="Pegasi">
 </p>
 
 **Step 2. Add other frames that the SDK required**
@@ -70,16 +70,17 @@ Click "+" to add other frameworks required
 **Step 3. Change settings of static library**
 
 Navigate to Target>Build Settings>Linking
+
 Select“Other Linker Flags”option and add-ObjC（as shown below）	
 <p align="center" >
-  <img src="http://www.cmcm.com/images/front/cms-title.png" alt="Pegasi" title="Pegasi">
+  <img src="http://dl.cm.ksmobile.com/static/res/4b/21/30.png" alt="Pegasi" title="Pegasi">
 </p>
 
 **Step 4. Modify AppTransportSecurity settings of info.plist（for iOS 9）**
 
 Now that iOS 9 has introduced AppTransportSecurity(ATS) characteristic, Developers are expected to add NSAppTransportSecurity settings in their projects, in order to support http requesting. The detailed settings are as follows:
 <p align="center" >
-  <img src="http://www.cmcm.com/images/front/cms-title.png" alt="Pegasi" title="Pegasi">
+  <img src="http://dl.cm.ksmobile.com/static/res/22/44/40.png" alt="Pegasi" title="Pegasi">
 </p>
 
 
