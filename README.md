@@ -1,7 +1,5 @@
 # pegasi-ios-sdk
-<p align="center" >
-  <img src="http://www.cmcm.com/images/front/cms-logo.png" alt="AFNetworking" title="AFNetworking">
-</p>
+
 
 Definition: Pegasi Ads SDK(iOS Version) is a mobile advertising SDK that serves monitization for publishers. 
 
