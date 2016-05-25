@@ -41,6 +41,7 @@ Pegasi-Ads-iOS-SDK supports multiple methods for installing the library in a pro
 If you do not have CheetahMobileAds downloaded already, grab it from  Github（https://github.com/CMAdSDK/pegasi-ios-sdk）and unzip it. 
 
 **Step 1. Add the SDK to your Xcode project**
+
 Right-click on the CheetahMobileAdsDemo project, and choose“Add Files To CheetahMobileAdsDemo” ,to add files to CheetahMobileAdsDemo.
 <p align="center" >
   <img src="http://www.cmcm.com/images/front/cms-title.png" alt="Pegasi" title="Pegasi">
@@ -51,6 +52,7 @@ Add the SDK under the CheetahMobileAds file:
 </p>
 
 **Step 2. Add other frames that the SDK required**
+
 The SDK depends on the following iOS development frameworks which may not already be part of your project:
 - AdSupport
 - CoreTelephony
@@ -63,6 +65,7 @@ Select "Link Binary with Libraries" Option
 Click "+" to add other frameworks required
 
 **Step 3. Change settings of static library**
+
 Navigate to Target>Build Settings>Linking
 Select“Other Linker Flags”option and add-ObjC（as shown below）	
 <p align="center" >
@@ -70,6 +73,7 @@ Select“Other Linker Flags”option and add-ObjC（as shown below）
 </p>
 
 **Step 4. Modify AppTransportSecurity settings of info.plist（for iOS 9）**
+
 Now that iOS 9 has introduced AppTransportSecurity(ATS) characteristic, Developers are expected to add NSAppTransportSecurity settings in their projects, in order to support http requesting. The detailed settings are as follows:
 <p align="center" >
   <img src="http://www.cmcm.com/images/front/cms-title.png" alt="Pegasi" title="Pegasi">
