@@ -1,6 +1,6 @@
 # pegasi-ios-sdk
 <p align="center" >
-  <img src="http://dl.cm.ksmobile.com/static/res/21/59/pegasilogo.png" alt="AFNetworking" title="AFNetworking">
+  <img src="http://www.cmcm.com/images/front/cms-logo.png" alt="AFNetworking" title="AFNetworking">
 </p>
 
 Definition: Pegasi Ads SDK(iOS Version) is a mobile advertising SDK that serves monitization for publishers. 
@@ -20,7 +20,7 @@ Choose Pegasi-Ads-iOS-SDK for your next monitization tool,—you'll be happy you
 ## Communication
 
 - If you **need help**, use [ Issue](https://github.com/CMAdSDK/pegasi-ios-sdk/issues). (Tag 'Pegasi-SDK')
-- If you'd like to **ask a general question**, e-mail [cmcm.ads@gmail.com](?).
+- If you'd like to **ask a general question**, e-mail [cmcm.ads@gmail.com](mailto:cmcm.ads@gmail.com).
 - If you **found a bug**, _and can provide steps to reliably reproduce it_, open an issue.
 - If you **want to contribute**, submit a pull request.
 
