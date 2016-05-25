@@ -42,7 +42,7 @@ If you do not have CheetahMobileAds downloaded already, grab it from  Github（h
 
 **Step 1. Add the SDK to your Xcode project**
 
-Right-click on the CheetahMobileAdsDemo project, and choose“Add Files To CheetahMobileAdsDemo” ,to add files to CheetahMobileAdsDemo.
+Right-click on the CheetahMobileAdsDemo project, and choose“**Add Files To CheetahMobileAdsDemo**” ,to add files to CheetahMobileAdsDemo.
 <p align="center" >
   <img src="http://dl.cm.ksmobile.com/static/res/58/3f/10.png" alt="Pegasi" title="Pegasi">
 </p>
@@ -51,7 +51,7 @@ Add the SDK under the CheetahMobileAds file:
   <img src="http://dl.cm.ksmobile.com/static/res/3a/d1/20.png" alt="Pegasi" title="Pegasi">
 </p>
 
-**Step 2. Add other frames that the SDK required**
+**Step 2. Add other frameworks that the SDK required**
 
 The SDK depends on the following iOS development frameworks which may not already be part of your project:
 - AdSupport
