@@ -1,4 +1,5 @@
-# pegasi-ios-sdk
+#Pegasi Ads iOS-SDK
+
 
 
 Definition: Pegasi Ads SDK(iOS Version) is a mobile advertising SDK that serves monitization for publishers. 
@@ -28,7 +29,7 @@ Pegasi-Ads-iOS-SDK supports multiple methods for installing the library in a pro
 
 ## Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like Pagesi-Ads in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking). You can install it with the following command:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like Pagesi-Ads in your projects. See the ["Getting Started" guide for more information](https://github.com/CMAdSDK/pegasi-ios-sdk/blob/master/Documents/IntergrationGuideForSDK.pdf). You can install it with the following command:
 
 ```bash
 $ gem install cocoapods
