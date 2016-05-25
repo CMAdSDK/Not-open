@@ -60,6 +60,7 @@ The SDK depends on the following iOS development frameworks which may not alread
 - 	CoreLocation
 - Security
 - SystemConfiguration
+
 Navigate to Project Settings > Build Phases
 Select "Link Binary with Libraries" Option
 Click "+" to add other frameworks required
