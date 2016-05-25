@@ -8,6 +8,12 @@ Fuction: Pegasi Ads SDK(,iOS Version) is able to provide basic functions includi
 
 Choose Pegasi-Ads-iOS-SDK for your next monitization tool,—you'll be happy you did!
 
+Currently supported ad formats：
+Native Ads(Native news feed/mini-Native news feed/Native triple image ads/Native small image ads
+Interstitial Ads (Supported by  elements of native ads )
+Banner Ads（ad size: 320*50&300*250, supported by elements of native ads）
+Splash screen Ads(ad size ratio: 1.4:1）
+
 
 
 ## How To Get Started
