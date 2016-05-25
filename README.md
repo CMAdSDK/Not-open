@@ -7,13 +7,13 @@ Pegasi Ads SDK(iOS Version) is a mobile advertising SDK that serves monitization
 
 **Currently supported ad formats**：
 
-- Native Ads(Native news feed/mini-Native news feed/Native triple image ads/Native small image ads
+- Native Ads (Native news feed/mini-Native news feed/Native triple image ads/Native small image ads
 
 - Interstitial Ads (Supported by  elements of native ads )
 
-- Banner Ads（ad size: 320*50&300*250, supported by elements of native ads）
+- Banner Ads （ad size: 320*50&300*250, supported by elements of native ads）
 
-- Splash screen Ads(ad size ratio: 1.4:1）
+- Splash Screen Ads (ad size ratio: 1.4:1）
 
 
 
@@ -27,7 +27,7 @@ Pegasi Ads SDK(iOS Version) is a mobile advertising SDK that serves monitization
 
 - If you **need help**, use [ Issue](https://github.com/CMAdSDK/pegasi-ios-sdk/issues). (Tag 'Pegasi-SDK')
 - If you'd like to **ask a general question**, e-mail [cmcm.ads@gmail.com](mailto:cmcm.ads@gmail.com).
-- If you **found a bug**, _and can provide steps to reliably reproduce it_, open an[Issue](https://github.com/CMAdSDK/pegasi-ios-sdk/issues).
+- If you **found a bug**, _and can provide steps to reliably reproduce it_, open an [Issue](https://github.com/CMAdSDK/pegasi-ios-sdk/issues).
 
 
 
