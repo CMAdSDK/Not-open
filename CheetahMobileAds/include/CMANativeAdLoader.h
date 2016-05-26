@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "CMAPosIDConfig.h"
-#import "CMANativeAd.h"
-#import "CMANativeAdLoaderDelegate.h"
-#import "CMANativeAdTypes.h"
+#import <CMAPosIDConfig.h>
+#import <CMANativeAd.h>
+#import <CMANativeAdLoaderDelegate.h>
+#import <CMANativeAdTypes.h>
 
 @interface CMANativeAdLoader : NSObject
 

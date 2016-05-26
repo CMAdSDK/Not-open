@@ -36,4 +36,6 @@
 
 - (void)unregisterView;
 
++ (void)unregisterViewForInteraction:(UIView *)view;
+
 @end

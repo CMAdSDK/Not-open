@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CheetahMobileAds"
-  s.version      = "1.5.0"
+  s.version      = "1.6.0"
   s.summary      = "Pegasi SDK is a mobile advertising SDK that serves monitization for publishers."
   s.homepage     = "https://github.com/CMAdSDK/pegasi-ios-sdk.git"
   s.author       = { "cmcm.ads" => "cmcm.ads@gmail.com" }

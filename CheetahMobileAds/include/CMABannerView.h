@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CMAPosIDConfig.h"
-#import "CMABannerAdTypes.h"
-#import "CMABannerViewDelegate.h"
+#import <CMAPosIDConfig.h>
+#import <CMABannerAdTypes.h>
+#import <CMABannerViewDelegate.h>
 
 @interface CMABannerView : UIView
 

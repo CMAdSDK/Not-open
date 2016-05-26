@@ -23,7 +23,7 @@ typedef NS_ENUM(NSUInteger, CMASplashAnimation) {
 - (void)show;
 - (void)showInWindow:(UIWindow *)window;
 
-@property (nonatomic, copy, readonly) CMAPosIDConfig *posIDConfig;
+@property (nonatomic,   copy, readonly) CMAPosIDConfig *posIDConfig;
 @property (nonatomic,   weak) id<CMASplashAdDelegate> delegate;
 
 @property (nonatomic,   weak) UIViewController *rootViewController;

@@ -5,7 +5,7 @@
 //  Created by 李 柯良 on 16/4/12.
 //  Copyright © 2016年 cheetahmobile. All rights reserved.
 //
-#import "CheetahMobileAdsDefines.h"
+#import <CheetahMobileAdsDefines.h>
 
 CMA_EXTERN NSString * const kCMAErrorDomain;
 
@@ -17,7 +17,8 @@ typedef NS_ENUM(NSInteger, CMAErrorCode) {
     kCMAErrorJSONTransform = -1005,
     kCMAErrorServerError = -1006,
     kCMAErrorInvalidArgument = -1007,
-    kCMAErrorResourceLoadError = -1008
+    kCMAErrorResourceLoadError = -1008,
+    kCMAErrorVASTResolveError = -1009
 };
 
 @interface CMARequestError : NSError

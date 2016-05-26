@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CheetahMobileAdsDefines.h"
+#import <CheetahMobileAdsDefines.h>
 
 CMA_EXTERN NSString * const kCMANativeAdLoaderNewsFeed;
 CMA_EXTERN NSString * const kCMANativeAdLoaderMiniFeed;

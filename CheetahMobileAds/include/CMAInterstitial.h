@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "CMAPosIDConfig.h"
+#import <CMAPosIDConfig.h>
 #import "CMAInterstitialDelegate.h"
 
 @interface CMAInterstitial : NSObject

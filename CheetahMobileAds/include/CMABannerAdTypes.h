@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "CheetahMobileAdsDefines.h"
+#import <CheetahMobileAdsDefines.h>
 
 typedef struct CMABannerAdType {
     NSUInteger type;
