@@ -73,7 +73,7 @@ Click "+" to add other frameworks required
 
 Navigate to Target>Build Settings>Linking
 
-Select“Other Linker Flags”option and add-ObjC（as shown below）	
+Select“Other Linker Flags”option and add-ObjC（as shown below）
 <p align="center" >
   <img src="http://dl.cm.ksmobile.com/static/res/fixed/03/30shuoming.png" alt="Pegasi" title="Pegasi">
 </p>
