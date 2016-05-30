@@ -29,7 +29,7 @@ Pegasi Ads iOS-SDK is a mobile advertising SDK that serves monitization for publ
 
 - If you **need help**, use [ Issue](https://github.com/CMAdSDK/pegasi-ios-sdk/issues). (Tag 'Pegasi-SDK')
 - If you'd like to **ask a general question**, e-mail [cmcm.ads@gmail.com](mailto:cmcm.ads@gmail.com).
-- If you **found a bug**, _and can provide steps to reliably reproduce it_, open an [Issue](https://github.com/CMAdSDK/pegasi-ios-sdk/issues).
+
 
 
 
