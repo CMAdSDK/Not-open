@@ -32,7 +32,7 @@
         }
     }];
     
-    CMAPosIDConfig *posIDConfig = [[CMAPosIDConfig alloc] initWithPosID:cnPosID chinaPosID:wwPosID];
+    CMAPosIDConfig *posIDConfig = [[CMAPosIDConfig alloc] initWithOrionPosID:cnPosID liehuPosID:wwPosID];
     
     CMABannerAdType adType = kCMABannerAdTypeBanner;
     if (GADAdSizeEqualToSize(adSize, kGADAdSizeBanner)) {

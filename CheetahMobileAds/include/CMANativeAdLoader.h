@@ -15,8 +15,6 @@
 
 @interface CMANativeAdLoader : NSObject
 
-@property (nonatomic, weak) id<CMANativeAdLoaderDelegate> delegate;
-
 - (instancetype)initWithPosIDConfig:(CMAPosIDConfig *)posIDConfig
                             adTypes:(NSArray *)adTypes NS_DESIGNATED_INITIALIZER;
 
@@ -25,5 +23,7 @@
 
 @property (nonatomic, readonly) CMAPosIDConfig *posIDConfig;
 @property (nonatomic, weak) UIViewController *rootViewController;
+
+@property (nonatomic, weak) id<CMANativeAdLoaderDelegate> delegate;
 
 @end

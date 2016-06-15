@@ -29,9 +29,9 @@
         }
     }];
     
-    CMAPosIDConfig *posIDConfig = [[CMAPosIDConfig alloc] initWithPosID:cnPosID chinaPosID:wwPosID];
+    CMAPosIDConfig *posIDConfig = [[CMAPosIDConfig alloc] initWithOrionPosID:cnPosID liehuPosID:wwPosID];
     
-    if (self.interstitial && [wwPosID isEqualToString:self.interstitial.posIDConfig.posID] && [cnPosID isEqualToString:self.interstitial.posIDConfig.chinaPosID]) {
+    if (self.interstitial && [wwPosID isEqualToString:self.interstitial.posIDConfig.orionPosID] && [cnPosID isEqualToString:self.interstitial.posIDConfig.liehuPosID]) {
         [self.interstitial loadAd];
     }
     else {

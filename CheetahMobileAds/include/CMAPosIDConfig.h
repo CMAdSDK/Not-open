@@ -10,13 +10,13 @@
 
 @interface CMAPosIDConfig : NSObject<NSCopying>
 
-@property (nonatomic, readonly, copy) NSString *posID;
-@property (nonatomic, readonly, copy) NSString *chinaPosID;
-
-- (instancetype)initWithPosID:(NSString *)posID;
-- (instancetype)intiWithChinaPosID:(NSString *)chinaPosID;
-- (instancetype)initWithPosID:(NSString *)posID chinaPosID:(NSString *)chinaPosID NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithOrionPosID:(NSString *)orionPosID liehuPosID:(NSString *)liehuPosID NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithOrionPosID:(NSString *)orionPosID;
+- (instancetype)intiWithLiehuPosID:(NSString *)liehuPosID;
 
 - (NSString *)currentPosID;
+
+@property (nonatomic, readonly, copy) NSString *orionPosID;
+@property (nonatomic, readonly, copy) NSString *liehuPosID;
 
 @end

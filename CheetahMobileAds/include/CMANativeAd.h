@@ -31,6 +31,8 @@
 
 @property (nonatomic, weak) id<CMANativeAdDelegate> delegate;
 
+- (void)registerViewForInteraction:(UIView *)view;
+
 - (void)registerViewForInteraction:(UIView *)view
                 withViewController:(UIViewController *)viewController;
 

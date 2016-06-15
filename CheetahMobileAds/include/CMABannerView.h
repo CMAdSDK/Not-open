@@ -17,6 +17,7 @@
 - (instancetype)initWithBannerAdType:(CMABannerAdType)adType;
 
 - (void)loadAd;
+- (void)disableAutoRefresh;
 
 @property (nonatomic, assign) CMABannerAdType adType;
 @property (nonatomic, copy) CMAPosIDConfig *posIDConfig;

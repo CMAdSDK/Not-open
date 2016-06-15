@@ -7,20 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CMAPosIDConfig.h"
-#import "CMARequestError.h"
-
 
 @interface CMAMIDConfig : NSObject
 
-- (instancetype)initWithMID:(NSString *)MID chinaMID:(NSString *)chinaMID NS_DESIGNATED_INITIALIZER;
-- (instancetype)initWithMID:(NSString *)MID;
-- (instancetype)initWithChinaMID:(NSString *)chinaMID;
+- (instancetype)initWithOrionMID:(NSString *)orionMID liehuMID:(NSString *)liehuMID NS_DESIGNATED_INITIALIZER;
+
+- (instancetype)initWithOrionMID:(NSString *)orionMID;
+- (instancetype)initWithLiehuMID:(NSString *)liehuMID;
 
 - (NSString *)currentMID;
 
-@property (nonatomic, readonly, copy) NSString *MID;
-@property (nonatomic, readonly, copy) NSString *chinaMID;
+@property (nonatomic, readonly, copy) NSString *orionMID;
+@property (nonatomic, readonly, copy) NSString *liehuMID;
 
 @property (nonatomic, copy) NSArray *testDevices;
 
