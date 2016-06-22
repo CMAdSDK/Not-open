@@ -22,7 +22,7 @@
     
     [super viewDidLoad];
     
-    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithPosID:@"1345104" chinaPosID:@"1346104"];
+    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithOrionPosID:@"1345104" liehuPosID:@"1346104"];
     
     self.interstitial = [[CMAInterstitial alloc] initWithPosIDConfig:config];
     self.interstitial.delegate = self;

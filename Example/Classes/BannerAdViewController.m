@@ -30,7 +30,7 @@
 
 - (void)setupBanners
 {
-    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithPosID:@"1345105" chinaPosID:@"1346105"];
+    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithOrionPosID:@"1345105" liehuPosID:@"1346105"];
     
     self.banner.delegate = self;
     self.banner.posIDConfig = config;

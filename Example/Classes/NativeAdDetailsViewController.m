@@ -77,7 +77,7 @@
     NSInteger adTypeIndex = [self.adTypePickerView selectedRowInComponent:0];
     NSString *adTypeAtIndex = [self adTypeAdIndex:adTypeIndex];
     
-    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithPosID:@"1345103" chinaPosID:@"1346103"];
+    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithOrionPosID:@"1345103" liehuPosID:@"1346103"];
     
     self.adLoader = [[CMANativeAdLoader alloc] initWithPosIDConfig:config adTypes:@[adTypeAtIndex]];
     self.adLoader.delegate = self;

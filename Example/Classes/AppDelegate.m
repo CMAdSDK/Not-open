@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [CheetahMobileAds startWithMIDConfig:[[CMAMIDConfig alloc] initWithMID:@"1345" chinaMID:@"1346"]];
+    [CheetahMobileAds startWithMIDConfig:[[CMAMIDConfig alloc] initWithOrionMID:@"1345" liehuMID:@"1346"]];
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];;
     navigationController.navigationBar.translucent = NO;

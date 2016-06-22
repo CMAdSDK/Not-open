@@ -25,7 +25,7 @@
 {
     self.adStatusLabel.text = @"Requesting ad...";
     
-    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithPosID:@"1345106" chinaPosID:@"1346106"];
+    CMAPosIDConfig *config = [[CMAPosIDConfig alloc] initWithOrionPosID:@"1345106" liehuPosID:@"1346106"];
     
     CMASplashAd *splashAd = [[CMASplashAd alloc] initWithPosIDConfig:config];
     splashAd.delegate = self;
