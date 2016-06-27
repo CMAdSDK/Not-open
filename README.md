@@ -13,6 +13,7 @@ Pegasi Ads iOS-SDK is a mobile advertising SDK that serves monitization for publ
 <tr><td> Interstitial Ads</td><td>Supported by  elements of native ads</td></tr>
 <tr><td> Banner Ads</td><td>Ad size: 320x50&300x250, supported by elements of native ads</td></tr>
 <tr><td> Splash screen Ads</td><td>Ad size ratio: 1.4:1</td></tr>
+<tr><td> Video Ads</td><td>Video size ratio: 4:3&16:9</td></tr>
 </tbody>
 </table>
 
